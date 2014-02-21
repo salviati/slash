@@ -75,7 +75,7 @@ public:
 			}
 			
 			max = abs;
-			maxi = dot >= 0 ? i : i*2;
+			maxi = dot >= 0 ? i : i + this->d;
 		}
 		return maxi;
 	}
